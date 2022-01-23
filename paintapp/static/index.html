@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paint Application</title>
-    <link rel="icon" href="./img/logo.jpg" type="image/x-icon" />
+    <link rel="icon" href="./img/logo.png" type="image/x-icon" />
     <style>
 
         #content{
@@ -13,15 +13,15 @@
            
         }
         #myCanvas{
-          background-color: #FBE4E6;
+          background-color: #ffd3f4;
           box-shadow: inset 0 0 5px #b6b6b6; 
           backdrop-filter: blur(15px);
           border-radius: 2px;
-          border: 5px solid #EB7A81;
+          border: 6px solid #eb1c72;
         }
         #buttonstyle{
-          background-color: #FDF5F5;
-          border: 2px solid #EB7A81;
+          background-color: #ffd3f4;
+          border: 4px solid #eb1c72;
           border-radius: 5px;
           color: black;
           padding: 15px 32px;
@@ -35,8 +35,8 @@
             background-color:#ffffff36;
             transition: 0.5s;
         }
-        #bgimg{
-          background-image: url(./img.jpg);
+        #bg{
+            background-color: rgb(223, 104, 140);
         }
         #shooky{
             border: 2px solid #ffffff;
@@ -54,7 +54,7 @@
         }
         </style>
   </head>
-  <body id="bgimg">
+  <body id="bg">
     <div id="content">
       <canvas id="myCanvas" width="750" height="750" onclick="showCoords(event)"></canvas></div>
       <center>
@@ -68,11 +68,12 @@
       <button onclick="size()" id="buttonstyle" >Change size</button></center>
       <center>
       <button onclick="change_color(this)" id="shooky" style="background: white;"></button>
-      <button onclick="change_color(this)" id="shooky" style="background: rgb(255, 72, 72);"></button>
+      <button onclick="change_color(this)" id="shooky" style="background: rgb(241, 45, 45);"></button>
       <button onclick="change_color(this)" id="shooky" style="background: rgb(255, 115, 1);"></button>
       <button onclick="change_color(this)" id="shooky" style="background: rgb(252, 255, 60);"></button>
       <button onclick="change_color(this)" id="shooky" style="background: rgb(94, 255, 45);"></button>
       <button onclick="change_color(this)" id="shooky" style="background: rgb(7, 184, 1);"></button>
+      <button onclick="change_color(this)" id="shooky" style="background: rgb(70, 21, 2);"></button>
       <button onclick="change_color(this)" id="shooky" style="background: rgb(49, 231, 255);"></button>
       <button onclick="change_color(this)" id="shooky" style="background: rgb(46, 112, 255);"></button>
       <button onclick="change_color(this)" id="shooky" style="background: rgb(213, 76, 255);"></button>
@@ -162,12 +163,11 @@
           }    
         }
       </script>
-    <center><p id="demo" style="color: white;"></p></center>
     <p 
-    style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    style="font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color:#320C0E;
+    color:#0c0007;
     font-weight: bold;
-    font-size: larger;">Paint Application Program, Developed by Dharshini D.S</p>
+    font-size: 20px;">Paint Application Program, Developed by Dharshini D.S</p>
   </body>
 </html>
