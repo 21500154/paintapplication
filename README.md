@@ -1,3 +1,4 @@
+![img1](https://user-images.githubusercontent.com/93427345/150688882-55e16063-9a23-4e65-8dd8-fa2bef627cf0.png)
 # Web Page for Paint Application
 
 ## AIM:
@@ -212,9 +213,10 @@ Publish the website in the given URL.
 </html>
 ```
 ## OUTPUT:
+![output](./image/img.png)
+![img1](https://user-images.githubusercontent.com/93427345/150688911-039023f4-2f88-4c80-aab2-4788ba159738.png)
+![img2](https://user-images.githubusercontent.com/93427345/150688929-c7a37722-cf93-47af-bce8-15b35a1cb8b1.png)
 
-image/img1.png
-image/img2.png
 ## Result:
 
 Thus a website is designed and validated for paint application using HTML5 canvas.
