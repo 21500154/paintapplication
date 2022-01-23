@@ -1,4 +1,3 @@
-![img1](https://user-images.githubusercontent.com/93427345/150688882-55e16063-9a23-4e65-8dd8-fa2bef627cf0.png)
 # Web Page for Paint Application
 
 ## AIM:
