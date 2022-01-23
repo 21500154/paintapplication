@@ -213,8 +213,8 @@ Publish the website in the given URL.
 ```
 ## OUTPUT:
 
--- include your output screenshots ---
-
+image/img1.png
+image/img2.png
 ## Result:
 
 Thus a website is designed and validated for paint application using HTML5 canvas.
