@@ -214,7 +214,7 @@ Publish the website in the given URL.
 ## OUTPUT:
 
 ![output](./image/img1.png)
-
+![output](./image/img2.png)
 
 ## Result:
 
